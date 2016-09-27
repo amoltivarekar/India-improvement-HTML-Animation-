@@ -1,0 +1,453 @@
+<html>
+	<head>
+		<style>
+			.div1
+			{
+				width:1345px;
+				height:460px;
+				background:-webkit-linear-gradient(bottom,rgba(0,0,0,0),#80CCFF);
+				background-repeat: repeat-x ;
+				background-position: 0 100%;
+				z-index: 1;
+			}
+			.div2
+			{
+				width:1345px;
+				height:190px;
+				background:url(' footer.grass.png');
+				background-size:cover;
+				z-index:3;
+			}
+			
+			.circle1
+			{
+				width:130px;
+				height:140px;
+				border-radius:105px;
+				background-color:white;
+				position:absolute;
+				top:50px;
+				left:100px;
+				box-shadow:inset 0px 1px 18px;
+			}
+			.circle2
+			{
+				width:100px;
+				height:100px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:60px;
+				left:180px;
+				box-shadow:inset 0px 1px 15px;
+			}
+			.circle3
+			{
+				width:100px;
+				height:100px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:70px;
+				left:40px;
+				box-shadow:inset 0px 1px 18px;
+			}
+			.circle4
+			{
+				width:112px;
+				height:112px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:65px;
+				left:100px;
+				
+			}
+			
+			
+			
+			
+			.tree5
+			{
+				width:12px;
+				height:58px;
+				
+				position:absolute;
+				right:125px;
+				bottom:185px;
+			}
+			.cloude1
+			{
+				width:120px;
+				height:130px;
+				border-radius:105px;
+				background-color:white;
+				position:absolute;
+				top:-400px;
+				right:100px;
+				box-shadow:inset 0px 1px 18px;
+			
+			}
+			.cloude2
+			{
+				width:200px;
+				height:80px;
+				border-radius:105px;
+				background-color:white;
+				position:absolute;
+				top:-350px;
+				right:70px;
+				box-shadow:inset 0px 1px 18px;
+			
+			}
+			.cloude3
+			{
+				width:100px;
+				height:100px;
+				border-radius:105px;
+				background-color:white;
+				position:absolute;
+				top:-350px;
+				right:100px;
+				box-shadow:inset 0px 1px 18px;
+			
+			}
+			.cloude4
+			{
+				width:115px;
+				height:112px;
+				border-radius:105px;
+				background-color:white;
+				position:absolute;
+				top:-380px;
+				right:105px;
+			}
+			.rocket1
+			{
+				width:100px;
+				height:200px;
+				background:-webkit-linear-gradient(left,rgba(255,255,255,1),#4D94DB);
+				position:absolute;
+				left:-700px;
+				top:-100px;
+			}
+			.rocket2
+			{
+				width:100px;
+				height:10px;
+				background-color:#264A6E;
+			}
+			.rocket3
+			{
+				width:100px;
+				height:10px;
+				background-color:#264A6E;
+				position:absolute;
+				left:0px;
+				bottom:0px;
+			}
+			.rocket4
+			{
+				width:25px;
+				height:25px;
+				border-radius:100px;
+				border:8px solid #264A6E ;
+				background-color:transparent;
+				position:absolute;
+				left:25px;
+				bottom:120px;
+			}
+			.rocket5
+			{
+				width:25px;
+				height:25px;
+				border-radius:100px;
+				border:8px solid #264A6E;
+				background-color:transparent;
+				position:absolute;
+				left:-7px;
+				bottom:-70px;
+			}
+			.rocket6
+			{
+				width:100px;
+				height:50px;
+				background-color:#4D94DB;
+				position:absolute;
+				left:-49px;
+				bottom:-299px;
+			}
+			.trangle
+			{
+				border-top:50px solid transparent;
+				border-left:50px solid transparent;
+				border-right:50px solid transparent;
+				border-bottom:50px solid #4D94DB;
+				position:absolute;
+				left:-35px;
+				bottom:134px;
+			}
+			.trangle1
+			{
+				border-top:50px solid transparent;
+				border-left:50px solid transparent;
+				border-right:50px solid transparent;
+				border-bottom:50px solid #4D94DB;
+				position:absolute;
+				left:-50px;
+				bottom:0px;
+			}
+			.trangle2
+			{
+				border-top:50px solid transparent;
+				border-left:50px solid transparent;
+				border-right:50px solid transparent;
+				border-bottom:50px solid #4D94DB;
+				position:absolute;
+				left:50px;
+				bottom:-50px;
+			}
+			.rect1
+			{
+				width:50px;
+				height:100px;
+				background:-webkit-linear-gradient(left,rgba(255,255,255,1),#4D94DB);
+				position:absolute;
+				left:-150px;
+				top:-150px;
+			}
+			.rect2
+			{
+				width:50px;
+				height:5px;
+				background:#264A6E;
+				position:absolute;
+				left:-150px;
+				top:-155px;
+			}
+			.rect3
+			{
+				width:50px;
+				height:15px;
+				background:#264A6E;
+				position:absolute;
+				left:-150px;
+				top:-50px;
+			}
+			.rect4
+			{
+				border-top:25px solid transparent;
+				border-left:25px solid transparent;
+				border-right:25px solid transparent;
+				border-bottom:25px solid #4D94DB;
+				position:absolute;
+				left:-150px;
+				bottom:155px;
+			}
+			.rect5
+			{
+				border-top:15px solid transparent;
+				border-left:15px solid transparent;
+				border-right:15px solid transparent;
+				border-bottom:15px solid #264A6E;
+				position:absolute;
+				left:-165px;
+				bottom:35px;
+			}
+			.rect6
+			{
+				width:50px;
+				height:100px;
+				background:-webkit-linear-gradient(left,rgba(255,255,255,1),#4D94DB);
+				position:absolute;
+				left:00px;
+				top:-150px;
+			}
+			.rect7
+			{
+				width:50px;
+				height:5px;
+				background:#264A6E;
+				position:absolute;
+				left:0px;
+				top:-155px;
+			}
+			.rect8
+			{
+				width:50px;
+				height:15px;
+				background:#264A6E;
+				position:absolute;
+				left:0px;
+				top:-50px;
+			}
+			.rect9
+			{
+				border-top:25px solid transparent;
+				border-left:25px solid transparent;
+				border-right:25px solid transparent;
+				border-bottom:25px solid #4D94DB;
+				position:absolute;
+				left:0px;
+				bottom:155px;
+			}
+			.rect10
+			{
+				border-top:15px solid transparent;
+				border-left:15px solid transparent;
+				border-right:15px solid transparent;
+				border-bottom:15px solid #264A6E;
+				position:absolute;
+				left:35px;
+				bottom:35px;
+			}
+			.anima
+			{
+				-webkit-animation-duration: 1s;
+			}
+			.as
+			{
+				-webkit-animation-name: as;
+			}
+			
+			@-webkit-keyframes as
+			{
+				100% {-webkit-transform:translateY(-520px)}}
+				80% {-webkit-transform:  translateY(-240px) ;}
+				60% {-webkit-transform: translateY(-400px)  ;}
+				40% {-webkit-transform: translateY(-640px)  ;}
+				20% {-webkit-transform:translateY(-880px)  ;}
+				0% {-webkit-transform:translateY(-1040px)  ;}
+			}
+			.cr
+			{
+				
+				
+				width:100px;
+				height:120px;
+				border-radius:55px;
+				background:-webkit-linear-gradient(left,rgba(255,255,0,0.5),red);
+			}
+			.fire
+			{
+				position:absolute;
+				top:500px;
+				left:200px;
+			}
+			
+			.as1
+			{
+				-webkit-animation-duration: 5s;
+				-webkit-animation-duration: linear infinite;
+				-webkit-animation-name: as1;
+			}
+			@-webkit-keyframes as1
+			{
+				0%{border-width:200px 34px 0 34px;}
+				25%{border-width:100px 34px 0 34px;}
+				50%{border-width:250px 34px 034px;}
+				75%{border-width:150px 34px 034px;}
+				100%{border-width:200px 34px 034px;}
+			}
+		}
+		.ship11
+		{
+			width:30px;
+			height:5px;
+			background:orange;
+			position:absolute;
+			top:113px;
+			left:270px;
+		}
+		.ship12
+		{
+			width:30px;
+			height:5px;
+			background:white;
+			position:absolute;
+			top:118px;
+			left:270px;
+		}
+		.ship13
+		{
+			width:30px;
+			height:5px;
+			background:green;
+			position:absolute;
+			top:123px;
+			left:270px;
+		}
+		.ship14
+		{
+			width:3px;
+			height:3px;
+			border-radius:55px;
+			background:transparent;
+			border:1px solid blue;
+			position:absolute;
+			top:118px;
+			left:282px;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="div1"></div>
+		<div >
+			<div class="circle1"></div>
+			<div class="circle2"></div>
+			<div class="circle3"></div>
+			<div class="circle4"></div>
+		</div>
+		<div class="div2">
+			<div class="tree1"></div>
+			<div class="tree2"></div>
+			<div class="tree3"></div>
+			<div class="tree5"><div>
+			<div class="tree4"></div>
+		</div>
+		<div >
+			<div class="cloude1"></div>
+			<div class="cloude2"></div>
+			<div class="cloude3"></div>
+			<div class="cloude4"></div>
+		</div>
+		<div class="rocket as anima">
+			<div>
+				<div class="rocket1  "><div>
+				<div class="rocket2  "><div>
+				<div class="rocket3  "><div>
+				<div class="rocket4  "><div>
+				<div class="rocket5  "><div>
+				<div class="trangle  "><div>
+				<div class="rocket6  "><div>
+				<div class="trangle1  "><div>
+				<div class="trangle2  "><div>
+			</div>
+			<div >
+				<div class="rect1"></div>
+				<div class="rect2"></div>
+				<div class="rect3"></div>
+				<div class="rect4"></div>
+				<div class="rect5"></div>
+			</div>
+			<div >
+				<div class="rect6"></div>
+				<div class="rect7"></div>
+				<div class="rect8"></div>
+				<div class="rect9"></div>
+				<div class="rect10"></div>
+			</div>
+			
+		</div>
+			<svg width=100px height=100px style="position:absolute; top:30px; left:5px;>
+				<defs class="as1">
+					<linearGradient id="grad1" x1="0%" y1="50%" x2="0%" y2="00%">
+						  <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:0" />
+						  <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+					</linearGradient>
+				</defs>
+				<ellipse cx="50" cy="100" rx="50" ry="80" style="fill:url(#grad1)"/>
+			</svg>
+		
+	</body>
+</html>
