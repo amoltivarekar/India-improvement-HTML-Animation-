@@ -1,0 +1,469 @@
+<html>
+	<head>
+		<title>
+			ship
+		</title>
+	</head>
+	<style>
+		.bottom
+		{
+			width:1366px;
+			height:107px;
+			background-color:rgb(215,175,106);
+			position:absolute;
+			top:560px;
+			left:0px;
+		}
+		body
+		{
+			background:-webkit-linear-gradient(top,rgb(71,141,220),rgb(220,255,255));
+		}
+		.sky
+		{
+			width:1366px;
+			height:170px;
+			background:-webkit-linear-gradient(top,#B2E0FF,white);
+			position:absolute;
+			top:0px;
+			left:0px;
+			z-index:-1;
+		}
+		.circle1
+			{
+				width:30px;
+				height:30px;
+				border-radius:105px;
+				background-color:white;
+				position:absolute;
+				top:50px;
+				left:100px;
+				box-shadow:inset 0px 0px 5px;
+			}
+			.circle2
+			{
+				width:20px;
+				height:20px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:55px;
+				left:120px;
+				box-shadow:inset 0px 0px 5px;
+			}
+			.circle3
+			{
+				width:20px;
+				height:20px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:55px;
+				left:90px;
+				box-shadow:inset 0px 0px 5px;
+			}
+			.circle4
+			{
+				width:25px;
+				height:25px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:52px;
+				left:102px;
+				
+			}
+			.circle5
+			{
+				width:30px;
+				height:30px;
+				border-radius:105px;
+				background-color:white;
+				position:absolute;
+				top:20px;
+				left:400px;
+				box-shadow:inset 0px 0px 5px;
+			}
+			.circle6
+			{
+				width:20px;
+				height:20px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:25px;
+				left:420px;
+				box-shadow:inset 0px 0px 5px;
+			}
+			.circle7
+			{
+				width:20px;
+				height:20px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:25px;
+				left:390px;
+				box-shadow:inset 0px 0px 5px;
+			}
+			.circle8
+			{
+				width:25px;
+				height:25px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:22px;
+				left:402px;
+				
+			}
+			.circle9
+			{
+				width:50px;
+				height:50px;
+				border-radius:105px;
+				background-color:white;
+				position:absolute;
+				top:25px;
+				left:800px;
+				box-shadow:inset 0px 0px 5px;
+			}
+			.circle10
+			{
+				width:40px;
+				height:40px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:30px;
+				left:835px;
+				box-shadow:inset 0px 0px 5px;
+			}
+			.circle11
+			{
+				width:40px;
+				height:40px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:30px;
+				left:780px;
+				box-shadow:inset 0px 0px 5px;
+			}
+			.circle12
+			{
+				width:45px;
+				height:45px;
+				border-radius:55px;
+				background-color:white;
+				position:absolute;
+				top:27px;
+				left:802px;
+				
+			}
+			.trangle
+			{
+				border-top:3px solid transparent;
+				border-left:3px solid #FFCC00;
+				border-right:3px solid transparent;
+				border-bottom:3px solid transparent;
+				position:absolute;
+				left:98px;
+				top:77px;
+			}
+			
+			.trangle2
+			{
+				border-radius:7px;
+				border-top:9px solid transparent;
+				border-left:9px solid #FFCC00;
+				border-right:9px solid transparent;
+				border-bottom:9px solid #FFCC00;
+				position:absolute;
+				left:105px;
+				top:60px;
+			}
+			.trangle3
+			{
+				border-radius:10px;
+				border-top:15px solid #FFCC00;
+				border-left:15px solid #FFCC00;
+				border-right:15px solid transparent;
+				border-bottom:15px solid transparent;
+				position:absolute;
+				left:145px;
+				top:85px;
+			}
+			.trangle4
+			{
+				border-radius:10px;
+				border-top:15px solid transparent;
+				border-left:15px solid #FFCC00;
+				border-right:15px solid transparent;
+				border-bottom:15px solid #FFCC00 ;
+				position:absolute;
+				left:145px;
+				top:45px;
+				z-index:-1;
+			}
+			h6
+			{
+				font-family:arial;
+				font-size:8;
+				color:red;
+				position:absolute;
+				top:60px;
+				left:130px;
+				z-index:1;
+			}
+			.anima
+			{
+			 -webkit-animation: mymove 30s ;
+			}
+			.as
+			{
+				-webkit-animation-name: as;
+			}
+
+			
+			
+			@-webkit-keyframes as
+			{	
+				0% {-webkit-transform:translateX(40px)  ;}
+				100% {-webkit-transform:translateX(500px)  ;}
+				10% {-webkit-transform: translateX(400px)  ;}
+				100% {-webkit-transform: translateX(500px)  ;}
+				50% {-webkit-transform:  translateX(550px) ;}
+				40% {-webkit-transform:translateX(600px);}
+				50%{-webkit-transform: translateX(620px) rotate(-20deg);}
+				100%{-webkit-transform: translateX(800px) rotate(-30deg);}
+			}
+			
+	.ship17
+		{
+			width: 70px;
+			height: 35px;
+			border-radius: 50%;
+			background-color: transparent;
+			box-shadow: inset -2px 7px 17px -8px white;
+			position: absolute;
+			top: 400px;
+			left: 120px;
+		}
+		.ship18
+		{
+			width: 70px;
+			height: 35px;
+			border-radius: 50%;
+			background-color: transparent;
+			box-shadow: inset -2px 7px 17px -8px white;
+			position: absolute;
+			top: 400px;
+			left: 190px;
+		}
+		.ship19
+		{
+			width: 50px;
+			height: 35px;
+			border-radius: 50%;
+			background-color: transparent;
+			box-shadow: inset -2px 7px 17px -8px white;
+			position: absolute;
+			top: 390px;
+			left: 245px;
+		}
+		.ship20
+		{
+			width: 50px;
+			height: 35px;
+			border-radius: 50%;
+			background-color: transparent;
+			box-shadow: inset -2px 7px 17px -8px white;
+			position: absolute;
+			top: 400px;
+			left: 305px;
+		}
+		.ship21
+		{
+			width: 80px;
+			height: 35px;
+			border-radius: 50%;
+			background-color: transparent;
+			box-shadow: inset -2px 7px 17px -8px white;
+			position: absolute;
+			top: 400px;
+			left: 300x;
+		}
+		.ship22
+		{
+			width: 50px;
+			height: 35px;
+			border-radius: 50%;
+			background-color: transparent;
+			box-shadow: inset -2px 7px 17px -8px white;
+			position: absolute;
+			top: 400px;
+			left: 395px;
+		}
+		.ship23
+		{
+			width: 70px;
+			height: 35px;
+			border-radius: 50%;
+			background-color: transparent;
+			box-shadow: inset -2px 7px 17px -8px white;
+			position: absolute;
+			top: 400px;
+			left: 350px;
+		}
+		.ship24
+		{
+			width: 50px;
+			height: 35px;
+			border-radius: 50%;
+			background-color: transparent;
+			box-shadow: inset -2px 7px 17px -8px white;
+			position: absolute;
+			top: 400px;
+			left: 90px;
+		}
+		.waves1
+		{
+			position:absolute;
+			top:-90px;
+			left:700px;
+		}
+		</style>
+	<body>
+	<div class="sky"></div>
+	<div class="bottom"></div>
+		
+		<svg  style="position:absolute; top:460px; left:0px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:440px; left:100px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:400px; left:220px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:375px; left:440px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:355px; left:640px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:325px; left:840px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:325px; left:1040px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:325px; left:1070px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:460px; left:100px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:460px; left:350px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:460px; left:450px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:435px; left:1090px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:435px; left:860px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:425px; left:760px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:425px; left:670px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:405px; left:470px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:370px; left:870px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:395px; left:1100px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<svg  style="position:absolute; top:350px; left:1090px;">
+				<ellipse cx="150" cy="100" rx="150" ry="40" style="fill:rgb(215,175,106)"/>
+		</svg>
+		<div >
+			<div class="circle1"></div>
+			<div class="circle2"></div>
+			<div class="circle3"></div>
+			<div class="circle4"></div>
+		</div>
+		<div >
+			<div class="circle5"></div>
+			<div class="circle6"></div>
+			<div class="circle7"></div>
+			<div class="circle8"></div>
+		</div>
+		<div >
+			<div class="circle9"></div>
+			<div class="circle10"></div>
+			<div class="circle11"></div>
+			<div class="circle12"></div>
+		</div>
+		<div class="rocket as anima">
+		<svg width=400px height=400px style="position:absolute; top:70px; left:100px;">
+				<defs >
+					<linearGradient id="grad1" x1="0%" y1="0%" x2="50%" y2="100%">
+						  <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+						  <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+					</linearGradient>
+				</defs>
+				<ellipse cx="50" cy="10" rx="50" ry="10" style="fill:url(#grad1);"/><h6>malaysia</h6>
+		</svg>
+		<svg width=80px height=200px style="position:absolute; top:30px; left:100px;">
+				<defs >
+					<linearGradient id="grad1" x1="0%" y1="0%" x2="50%" y2="100%">
+						  <stop offset="0%" style="stop-color:rgb(255,200,0);stop-opacity:1" />
+						  <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+					</linearGradient>
+				</defs>
+				<ellipse cx="50" cy="50" rx="50" ry="10" style="fill:url(#grad1)"/>
+				<svg>
+					<circle cx="70" cy="47" r="2" stroke="#264A6E" stroke-width="1" fill="transparent" />
+					<circle cx="60" cy="47" r="1.5" stroke="#264A6E" stroke-width="1" fill="transparent" />
+					<circle cx="50" cy="47" r="1.2" stroke="#264A6E" stroke-width="1" fill="transparent" />
+					<circle cx="40" cy="47" r="1" stroke="#264A6E" stroke-width="1" fill="transparent" />
+				</svg>
+				<div class="rect1"></div>
+				<div class="trangle"></div>
+				<div class="trangle2"></div>
+				<div class="trangle3"></div>
+				<div class="trangle4"></div>
+				<div class="trangle5"></div>
+				
+			</svg>
+		</div>
+		<div class="waves">
+					<div  class="ship17"></div>
+					<div  class="ship18"></div>
+					<div  class="ship19"></div>
+					<div  class="ship20"></div>
+					<div  class="ship21"></div>
+					<div  class="ship22"></div>
+					<div  class="ship23"></div>
+					<div  class="ship24"></div>
+		</div>
+		<div class="waves1">
+					<div  class="ship17"></div>
+					<div  class="ship18"></div>
+					<div  class="ship19"></div>
+					<div  class="ship20"></div>
+					<div  class="ship21"></div>
+					<div  class="ship22"></div>
+					<div  class="ship23"></div>
+					<div  class="ship24"></div>
+		</div>
+	</body>
+</html>
